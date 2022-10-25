@@ -15,6 +15,6 @@ output "kubeconfig" {
 }
 
 output "region" {
-  description = "AWS region"
+  description = "Civo Region"
   value       = civo_kubernetes_cluster.my-cluster.region
 }
